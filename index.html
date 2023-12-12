@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Quicksand:wght@500&family=Roboto:wght@100&family=Tilt+Neon&display=swap" rel="stylesheet">
+    <title>Quotes App</title>
+</head>
+<body>
+    
+    <div class="home">
+        <div class=" container text-center text-white">
+        <h1>Quote of the Day</h1>
+        <p>Press the button below to recieve a random quote!</p>
+        <button onclick="getQuote()">New Quote</button>
+        <button class="mx-1" onclick="addQuote()">Add Quote</button>
+        <button onclick="addFavorites()">Add to favorites</button>
+        <p id="quote"></p>
+        <p id="author"></p>
+
+        <button class="align-self-end" onclick="showFavorites()">Show favorites</button>
+        <div id="favoeites">
+        </div>
+    </div>
+    </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
